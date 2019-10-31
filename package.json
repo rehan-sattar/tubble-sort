@@ -1,0 +1,25 @@
+{
+  "name": "tubble-sort",
+  "version": "1.0.0",
+  "description": "An implementation of bubble sort algorithm in typescript",
+  "main": "build/index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rehan-sattar/tubble-sort.git"
+  },
+  "author": "Rehan Sattar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rehan-sattar/tubble-sort/issues"
+  },
+  "homepage": "https://github.com/rehan-sattar/tubble-sort#readme",
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^1.19.4"
+  }
+}
